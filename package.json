@@ -1,0 +1,31 @@
+{
+  "name": "travel-recommendation-system",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.3.1",
+    "@react-pdf/renderer": "^4.3.0",
+    "@tanstack/react-query": "^5.66.0",
+    "axios": "^1.8.4",
+    "ics": "^3.8.1",
+    "jspdf": "^2.5.2",
+    "next": "14.2.3",
+    "python-shell": "^5.0.0",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
